@@ -1,0 +1,204 @@
+.base {
+  display: flex;
+  margin-left: 25%;
+  width: 100%;
+  height: 500px;
+}
+
+
+.ball1 {
+  border-radius: 50px;
+  margin-left: 10px;
+
+  background-color: blue;
+
+  height: 50px;
+  width: 50px;
+
+  opacity: 0.5;
+  animation-name: b1;
+  animation-duration: 1s;
+}
+@keyframes b1 {
+  0% {
+    margin-top: 50px;
+  }
+
+  50% {
+    margin-top: 500px;
+  }
+
+  70% {
+    margin-top: 440px;
+  }
+
+  80% {
+    margin-top: 480px;
+  }
+  100% {
+    margin-top: 500px;
+  }
+}
+
+.ball2 {
+  opacity: 0.5;
+  border-radius: 50px;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: blueviolet;
+
+  animation-name: b2;
+  animation-duration: 1s;
+  animation-delay: 30ms;
+}
+@keyframes b2 {
+  0% {
+    margin-top: 50px;
+  }
+
+  50% {
+    margin-top: 500px;
+  }
+
+  70% {
+    margin-top: 440px;
+  }
+
+  80% {
+    margin-top: 480px;
+  }
+  100% {
+    margin-top: 500px;
+  }
+}
+
+.ball3 {
+  border-radius: 50px;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+  background-color: cadetblue;
+  animation-name: b3;
+  animation-duration: 1s;
+  animation-delay: 30ms;
+}
+@keyframes b3 {
+  0% {
+    margin-top: 50px;
+  }
+
+  50% {
+    margin-top: 500px;
+  }
+
+  70% {
+    margin-top: 440px;
+  }
+
+  80% {
+    margin-top: 480px;
+  }
+  100% {
+    margin-top: 500px;
+  }
+}
+
+.ball4 {
+  margin-left: 10px;
+  opacity: 0.5;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: turquoise;
+  animation-name: b4;
+  animation-duration: 1s;
+  animation-delay: 30ms;
+}
+@keyframes b4 {
+  0% {
+    margin-top: 50px;
+  }
+
+  50% {
+    margin-top: 500px;
+  }
+
+  70% {
+    margin-top: 440px;
+  }
+
+  80% {
+    margin-top: 480px;
+  }
+  100% {
+    margin-top: 500px;
+  }
+}
+
+.ball5 {
+  border-radius: 50px;
+
+  margin-left: 10px;
+  opacity: 0.5;
+  height: 50px;
+  width: 50px;
+  background-color: violet;
+  animation-name: b5;
+  animation-duration: 1s;
+  animation-delay: 30ms;
+}
+
+@keyframes b5 {
+  0% {
+    margin-top: 50px;
+  }
+
+  50% {
+    margin-top: 500px;
+  }
+
+  70% {
+    margin-top: 440px;
+  }
+
+  80% {
+    margin-top: 480px;
+  }
+  100% {
+    margin-top: 500px;
+  }
+}
+
+.ball6 {
+  border-radius: 50px;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+  background-color: red;
+  animation-name: b6;
+  animation-duration: 1s;
+  animation-delay: 30ms;
+}
+@keyframes b6 {
+  0% {
+    margin-top: 50px;
+  }
+
+  50% {
+    margin-top: 500px;
+  }
+
+  70% {
+    margin-top: 440px;
+  }
+
+  80% {
+    margin-top: 480px;
+  }
+  100% {
+    margin-top: 500px;
+  }
+}
